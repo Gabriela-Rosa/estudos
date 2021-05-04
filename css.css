@@ -1,0 +1,43 @@
+body {
+    min-height: 100vh;
+}
+
+
+.bloco {
+    color: 1px;
+    background-color: lightslategrey;
+    height: 1000px;
+    width: 1280px;
+
+    background-color: rgba(42, 170, 42, 0.589);
+    border: black 1px solid;
+}
+.bloco1 {
+    color: 1px;
+    background-color: rgb(92, 92, 92);
+    height: 1000px;
+    width: 1280px;
+}
+
+main {
+  margin: 20px 0;
+  padding: 10px;
+}
+
+main div {
+  background: white;
+  color: black;
+  padding: 30px;
+  margin: 30px ;
+  border-radius: 10px;
+}
+
+main div:nth-child(1) {
+  width: 1200px;
+}
+main div:nth-child(2) {
+  width: 1200px;
+}
+main div:nth-child(3) {
+  width: 1200px;
+}
