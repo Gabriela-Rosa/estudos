@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <style>
+        body {
+            min-height: 99vh;
+            background-color: black;
+
+        }
+          
+
+
+    </style>
+ 
+    <title>tela fabrica</title>
+  </head>
+  <body>
+    <div class="card" style="width: 96rem; min-height: 350px; background-color: #263141 ;">
+        <div class="card-body">
+          <h6 class="text-white font-weight-light text-right">Apontamento</h6>
+          <h5 class="card-title text-white font-weight-bold text-right">Ordem de Fabricação</h5>
+          <form class="form-inline ">
+            <div class="form-group mx-sm-3 mb-2">
+              <label for="NúmeroDoLote" class="sr-only">Número do Lote</label>
+              <input type="Numero" class="form-control" id="NúmeroDoLote" placeholder="Número do Lote">
+            </div>
+            <button type="submit" class="btn btn-info mb-2">Iniciar Lote</button>
+          </form>
+          <form class="form-inline ">
+                <button class="btn btn-info">Pausar lote</button>
+                <button class="btn btn-info"> Cancelar Lote</button>
+          </form>
+          <form class="form-inline justify-content-around">
+            <h6 class="text-white font-weight-light">Derivação</h6>
+            <h6 class="text-white font-weight-light">Lote</h6>
+            <h6 class="text-white font-weight-light">Qntd. A produzir</h6>
+            <h6 class="text-white font-weight-light">Origem</h6>
+          </form>
+          <form class="form-inline justify-content-around">
+            <h2 class="card-title text-white font-weight-bold">-</h2>
+            <h2 class="card-title text-white font-weight-bold">-</h2>
+            <h2 class="card-title text-white font-weight-bold">-</h2>
+            <h2 class="card-title text-white font-weight-bold">-</h2>
+          </form>
+          <form  class="form-inline justify-content-around">
+            <h6 class="text-white font-weight-light"> Cód. Produto</h6>
+            <h6 class="text-white font-weight-light"> Descrição</h6>
+            <h6 class="text-white font-weight-light"> Tam. Sacaria</h6>
+            <h6 class="text-white font-weight-light">Linha</h6>
+          </form>
+          <form class="form-inline justify-content-around">
+            <h2 class="card-title text-white font-weight-bold">-</h2>
+            <h2 class="card-title text-white font-weight-bold">-</h2>
+            <h2 class="card-title text-white font-weight-bold">-</h2>
+            <h2 class="card-title text-white font-weight-bold">-</h2>
+          </form>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card" style="min-height: 350px; background-color: #263141; ">
+            <div class="card-body">
+                <h6 class="text-white font-weight-light text-right">Status</h6>
+              <h5 class="card-title text-white font-weight-bold text-right">Informações de Produção</h5>
+              <h6 class="text-white font-weight-light text-center "> Produção total:   0 Kg</h6>
+              <h6 class="text-white font-weight-light text-center"> Produção média:   0 Kg/h</h6>
+              <h6 class="text-white font-weight-light text-center"> Frequência:       0.00 Hz</h6>
+              <h6 class="text-white font-weight-light text-center"> Ultima atualização:   07/05/2021 14:10:00</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card" style="min-height: 350px; background-color: #263141;">
+            <div class="card-body">
+             <h6 class="text-white font-weight-light text-right">Apontamento</h6>
+              <h5 class="card-title text-white font-weight-bold text-right">Paradas de Máquinas</h5>
+               <form class="form-inline justify-content-around">
+                <button class="btn btn-info">Fragmentar Parada</button>
+                <button class="btn btn-success"> Identificar Parada</button>
+          </form>
+                <form class="form-inline justify-content-around">
+                  <h6 class="card-title text-white font-weight-light">Hora da parada</h6>
+                  <h6 class="card-title text-white font-weight-light">Cód. Motivo</h6>
+                  <h6 class="card-title text-white font-weight-light">Tempo total</h6>
+                </form>
+                <form class="form-inline justify-content-around"> 
+                  <h6 class="card-title text-white font-weight-bold">07/05 15:28</h6>
+                  <h6 class="card-title text-white font-weight-bold">1</h6>
+                  <h6 class="card-title text-white font-weight-bold">00:00:00</h6>
+                </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
